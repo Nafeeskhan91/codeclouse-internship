@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker Dashboard</title>
+    <link rel="stylesheet" href="styels.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fitness Tracker Dashboard</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="stats">
+                <h2>User Stats</h2>
+                <div class="stat-item">
+                    <h3>Steps</h3>
+                    <p id="steps">12000</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Calories</h3>
+                    <p id="calories">2500</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Active Minutes</h3>
+                    <p id="active-minutes">60</p>
+                </div>
+            </section>
+            <section class="charts">
+                <h2>Activity Charts</h2>
+                <canvas id="stepsChart"></canvas>
+                <canvas id="caloriesChart"></canvas>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fitness Tracker</p>
+        </div>
+    </footer>
+    <script src="scriptts.js"></script>
+</body>
+</html>
